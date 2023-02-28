@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Hotelo booking</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header" class="header">
+    <div class="header__container">
+        <div class="header__menu menu">
+            <div class="menu__logo">
+                <a href="" class="menu__logo-link">
+                    <img src="img/Logo.svg" alt="Hottelo logo" class="menu__logo-image">
+                </a>
+            </div>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link underline">Booking</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link underline">Facilities</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link underline">About Us</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link underline">Location</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link underline">Contact</a></li>
+                </ul>
+                <div class="menu__login">
+                    <a href="#" class="menu__login-btn">Login</a>
+                </div>
+            </nav>
+            <div class="menu__icon">
+                <span class="burger-top"></span>
+                <span class="burger-mid"></span>
+                <span class="burger-bot"></span>
+            </div>
+        </div>
+        <div class="header__booking">
+            <div class="header__booking-left-part booking-left-part">
+                <div class="booking-left-part__text">
+                    <h1 class="booking-left-part__title">Find your perfect place to stay</h1>
+                    <p class="booking-left-part__subtitle">Lorem ipsum is simply dummy text of the printing and
+                        typesetting industry.</p>
+                    <div class="booking-left-part__video header-video">
+                        <a class="header-video__btn-play _icon-play" href="#"></a>
+                        <article class="header-video__title">Watch video</article>
+                    </div>
+                </div>
+            </div>
+            <div class="header__booking-right-part booking-right-part">
+                <img src="img/header_image.png" alt="house">
+            </div>
+        </div>
+        <form action="#">
+            <div class="header__date date-booking">
+                <div class="date-booking__location"><a href="#location__container" class="date-booking__location-link"><span
+                            class="_icon-location"></span>Location</a>
+                    <a href="#location__container" class="date-booking__location-place">United States</a>
+                </div>
+                <div class="date-booking__chack_in chack_in">
+                    <label for="chack_out" class="chack_in-title"><span class="_icon-calendar"></span>Check in</label>
+                    <input type="date" name="chack_out" id="chack_in" value="2022-12-17">
+                </div>
+                <div class="date-booking__chack_out chack_out">
+                    <label for="chack_out" class="chack_out-title"><span class="_icon-calendar"></span>Check out</label>
+                    <input type="date" name="chack_out" id="chack_out" value="2022-12-31">
+                </div>
+                <div class="date-booking__rooms_for rooms_for">
+                    <a href="#" class="rooms-for__title"><span class="_icon-person"></span>Rooms for</a>
+                    <div class="rooms_for__info">
+                        <input type="number" name="" id="" value="1" class="rooms_for__info-room"><span
+                            class="rooms_for__info-room-number">room,</span>
+                        <input type="number" name="" id="" value="1" class="rooms_for__info-guests"><span
+                            class="rooms_for__info-guests-number">guests</span>
+                    </div>
+
+                </div>
+                <div class="data-booking__search-btn">
+                    <button class="_icon-search"></button>
+                    <input type="search" name="search-btn" id="search-btn" class="search-btn" placeholder="Search...">
+                </div>
+            </div>
+        </form>
+    </div>
+</header>
+    <main class="main" id="main">
+    <section class="main__popular-hotels popular-hotels">
+        <div class="popular-hotels__container">
+            <div class="popular-hotels__title">
+                <div class="popular-hotels__title-text">
+                    <h2 class="popular-hotels__title-text-h2">Our most popular Hotels</h2>
+                    <p class="popular-hotels__title-text-subtitle">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.</p>
+                </div>
+                <div class="popular-hotels__title-btn-box">
+                    <a class="popular-hotels__title-btn" href="">View All</a>
+                </div>
+
+            </div>
+            <div class="popular-hotels__cards-box cards-box">
+                <a href="">
+                    <div class="cards-box__item">
+                    <div class="cards-box__item-image-box">
+                        <img class="cards-box__item-image" src="img/danubius.png" alt="">
+                    </div>
+                    <article class="cards-box__item-index">London NW8 7JT England</article>
+                    <h3 class="cards-box__item-title">Danubius Hotel Regents Park</h3>
+                    <div class="cards-box__item-raiting">
+                        <article class="cards-box__item-price">$200 Per Night</article>
+                        <span class="cards-box__item-stars"></span>
+                    </div>
+                </div>
+                </a>
+                <a href="">
+                    <div class="cards-box__item">
+                        <div class="cards-box__item-image-box">
+                            <img class="cards-box__item-image" src="img/soho.png" alt="">
+                        </div>
+                    <article class="cards-box__item-index">London NW8 7JT England</article>
+                    <h3 class="cards-box__item-title">The Resident Soho</h3>
+                    <div class="cards-box__item-raiting">
+                        <article class="cards-box__item-price">$200 Per Night</article>
+                        <span class="cards-box__item-stars"></span>
+                    </div>
+                </div>
+                </a>
+                <a href="">
+                    <div class="cards-box__item">
+                        <div class="cards-box__item-image-box">
+                            <img class="cards-box__item-image" src="img/london.png" alt="">
+                        </div>
+                    <article class="cards-box__item-index">London NW8 7JT England</article>
+                    <h3 class="cards-box__item-title">London Bridge Hotel</h3>
+                    <div class="cards-box__item-raiting">
+                        <article class="cards-box__item-price">$200 Per Night</article>
+                        <span class="cards-box__item-stars"></span>
+                    </div>
+                </div>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <section class="hotel_facilities">
+        <div class="hotel_facilities__container">
+            <div class="hotel_facilities__text">
+                <h2 class="hotel_facilities__text-title">We do our best facilities provide you</h2>
+                <p class="hotel_facilities__text-subtitle">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                <a href="" class="hotel_facilities__text-btn">Contact Now</a>
+            </div>
+            <div class="hotel_facilities__value">
+                <ul class="hotel_facilities__list">
+                    <li class="hotel_facilities__list-item _icon-computer"><a href=""
+                            class="hotel_facilities__list-item-link">Private Workspace</a></li>
+                    <li class="hotel_facilities__list-item _icon-parking"><a href=""
+                            class="hotel_facilities__list-item-link">Parking Area</a></li>
+                    <li class="hotel_facilities__list-item _icon-cappuccino"><a href=""
+                            class="hotel_facilities__list-item-link ">Breakfast</a></li>
+                    <li class="hotel_facilities__list-item _icon-wifi"><a href=""
+                            class="hotel_facilities__list-item-link">Free Wifi</a></li>
+                    <li class="hotel_facilities__list-item _icon-flash"><a href=""
+                            class="hotel_facilities__list-item-link">Free Electricity</a></li>
+                    <li class="hotel_facilities__list-item _icon-swimer"><a href=""
+                            class="hotel_facilities__list-item-link">Swimming Pool</a></li>
+                    <li class="hotel_facilities__list-item _icon-gym"><a href=""
+                            class="hotel_facilities__list-item-link">Exercise Space</a></li>
+                    <li class="hotel_facilities__list-item _icon-ellipsis"><a href=""
+                            class="hotel_facilities__list-item-link">Other Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="about_us">
+        <div class="about_us__container">
+            <div class="about_us__background-image"><img src="img/history.png" alt=""></div>
+            <div class="about_us__text">
+                <h2 class="about_us__text-title">Discover our History</h2>
+                <p class="about_us__text-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.
+                    <br>
+                    <br>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <a href="" class="about_us__text-btn">Explore More</a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <div class="testimonial__container">   
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__page swiper-slide">
+                        <div class="tesimonial__page-info">
+                            <div class="tesimonial__page-info-text">
+                                <span class="quetos-before"></span>
+                                <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <span class="quetos-after"></span>
+                            </div>
+                            <p class="tesimonial__page-info-person">Alexandr Ivchenko</p>
+                            <span class="tesimonial__page-info-position">Businessman</span>
+                        </div>
+                        <div class="tesimonial__page-img">
+                            <img src="img/person.png" alt="">
+                        </div>
+                    </div>
+                    <div class="testimonial__page swiper-slide">
+                        <div class="tesimonial__page-info">
+                            <div class="tesimonial__page-info-text">
+                                <span class="quetos-before"></span>
+                                <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <span class="quetos-after"></span>
+                            </div>
+                            <p class="tesimonial__page-info-person">Alexandr Ivchenko</p>
+                            <span class="tesimonial__page-info-position">Businessman</span>
+                        </div>
+                        <div class="tesimonial__page-img">
+                            <img src="img/person.png" alt="">
+                        </div>
+                    </div>
+                    <div class="testimonial__page swiper-slide">
+                        <div class="tesimonial__page-info">
+                            <div class="tesimonial__page-info-text">
+                                <span class="quetos-before"></span>
+                                <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <span class="quetos-after"></span>
+                            </div>
+                            <p class="tesimonial__page-info-person">Alexandr Ivchenko</p>
+                            <span class="tesimonial__page-info-position">Businessman</span>
+                        </div>
+                        <div class="tesimonial__page-img">
+                            <img src="img/person.png" alt="">
+                        </div>
+                    </div>
+                    <div class="testimonial__page swiper-slide">
+                        <div class="tesimonial__page-info">
+                            <div class="tesimonial__page-info-text">
+                                <span class="quetos-before"></span>
+                                <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <span class="quetos-after"></span>
+                            </div>
+                            <p class="tesimonial__page-info-person">Alexandr Ivchenko</p>
+                            <span class="tesimonial__page-info-position">Businessman</span>
+                        </div>
+                        <div class="tesimonial__page-img">
+                            <img src="img/person.png" alt="">
+                        </div>
+                    </div>
+                    <div class="testimonial__page swiper-slide">
+                        <div class="tesimonial__page-info">
+                            <div class="tesimonial__page-info-text">
+                                <span class="quetos-before"></span>
+                                <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <span class="quetos-after"></span>
+                            </div>
+                            <p class="tesimonial__page-info-person">Alexandr Ivchenko</p>
+                            <span class="tesimonial__page-info-position">Businessman</span>
+                        </div>
+                        <div class="tesimonial__page-img">
+                            <img src="img/person.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </section>
+    <section class="other_company">
+        <div class="other_company__container">
+            <img src="img/hotels_com.svg" alt="" class="other__company-item">
+            <img src="img/Hyatt.svg" alt="" class="other__company-item">
+            <img src="img/park_hotel.svg" alt="" class="other__company-item">
+            <img src="img/Cushman_&_Wakefield.svg" alt="" class="other__company-item">
+            <img src="img/hilton.svg" alt="" class="other__company-item">
+        </div>
+    </section>
+    <section class="location">
+        <div class="location__container" id="location__container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2651.330133571376!2d24.414140576344835!3d48.354179671268255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47371872979c6d67%3A0xcb1fd0ec8dd3b4ce!2z0JDQv9Cw0YDRgi3Qs9C-0YLQtdC70YwgWmltYVNub3cgU2tpICYgU3Bh!5e0!3m2!1suk!2sua!4v1673343180685!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="location__info">
+                <div class="location__info-inner-box">
+                    <div class="location__info_text">
+                        <h2 class="location__info_text-title">Location of our Hotelos</h2>
+                        <p class="location__info_text-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <form class="location__info-mail" action="#">
+                        <input class="location__info-mail-input" type="text" name="" id="" placeholder="Enter your name">
+                        <input class="location__info-mail-btn" type="button" value="Contact">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+    <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__left-part social">
+            <div class="social__website-logo">
+                <img src="img/Logo.svg" alt="">
+            </div>
+            <p class="social__info">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+            <ul class="social__icon">
+                <li class="social__icon-item"><a href="" class="social__icon-item-link"><img src="img/facebook.svg" alt=""></a></li>
+                <li class="social__icon-item"><a href="" class="social__icon-item-link"><img src="img/instagram.svg" alt=""></a></li>
+                <li class="social__icon-item"><a href="" class="social__icon-item-link"><img src="img/google.svg" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="footer__right-part footer-nav">
+            <div data-spollers="973,max" class="block">
+                <div class="block__item">
+                    <button tabindex="-1" data-spoller class="footer-nav__list-title block__title">Home</button>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">Booking</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">Facilities</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">Location</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers="973,max" class="block">
+                <div class="block__item">
+                    <button tabindex="-1" data-spoller class="footer-nav__list-title block__title">Help</button>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">About Us</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">Help center</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">Privacy policy</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers="973,max" class="block">
+                <div class="block__item">
+                    <button tabindex="-1" data-spoller class="footer-nav__list-title block__title">Get the app</button>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">iOS app</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link underline" href="#">Android app</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
